@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+    --header-height: 105px;
+}
+
+body{
+    background-color: #1A191D;
+}
+
+
+
+
+li{
+list-style-type: none;
+}
+
+.franchise-road{
+width: 60%;
+}
+
+.road-to-finals{
+    border-bottom: 4px solid black;
+}
+
+#button-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+
+}
+
+#top{
+    /* position: fixed; */
+    width: 100%;
+    /* height: 100vh; */
+    border: 1px solid blue;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* align-items: end; */
+}
+
+#top img{
+    /* margin-left: px; */
+    margin-bottom: 100px;
+    width: 35px;
+}
